@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	font-size: 240px;
+	color: black;
+	opacity: 0.0;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	transform: translate(-20%, -10%);
+
+    animation: up 2s ease-in-out;
+    animation-delay: 2.8s ;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-fill-mode: forwards;
+}
+h2{
+	font-size: 50px;
+	text-transform: capitalize;
+	text-shadow: 2px 2px 5px black;
+
+opacity: 0;
+	    animation: down 3s;
+    animation-delay: 5s ;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-fill-mode: forwards;
+}
+h3{
+	font-size: 37px;
+	color: #f1c40f;
+	text-transform: capitalize;
+	font-weight: lighter;
+    opacity: 0;
+
+	animation: down 3s;
+    animation-delay: 5.2s ;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-fill-mode: forwards;
+}
+p{
+	font-size: 14px;
+	margin-top: 50px;
+	opacity:0 ;
+
+	   animation: down 3s;
+    animation-delay: 5.4s ;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-fill-mode: forwards;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+}
+.btn{
+	display: inline-block;
+	background-color: #f1c40f;
+	border-radius: 20px;
+	text-transform: capitalize;
+	margin-top: 30px;
+	margin-left: 230px;
+
+opacity: 0;
+    animation: button 2s;
+    animation-delay: 7s ;
+    animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    animation-fill-mode: forwards;
+
+}
+
+
+.wrapper{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: #ecf0f1 ;
+}
+
+.content{
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	width: 30%;
+	padding: 1em;
+}
+
+
+.image-box .doted{
+position: absolute;
+top: 20%;
+right: 10%;
+width: 400px;
+height: 300px;
+background: radial-gradient(#bdc3c7 20%, transparent 20%), radial-gradient(#ecf0f1, transparent 20%);
+background-position: 0 0, 50px 50px;
+background-size:20px 20px ;
+opacity: 0;
+    animation: doted 2s ease-in-out;
+    animation-delay: 3s ;
+    animation-fill-mode: forwards;
+}
+
+.little-doted{
+position: absolute;
+top: 55%;
+right: 35%;
+width: 200px;
+height: 200px;
+background: radial-gradient(#bdc3c7 20%, transparent 20%), radial-gradient(#ecf0f1, transparent 20%);
+background-position: 0 0, 50px 50px;
+background-size:20px 20px ;
+opacity: 0;
+    animation: doted 2s ease-in-out;
+    animation-delay: 3s ;
+    animation-fill-mode: forwards;
+}
+.image-box img{
+	position: absolute;
+	top: 30%;
+	right: 20%;
+	width: 350px;
+	haight: 350px;
+	border-radius: 50%;
+	z-index: 10;
+	animation: img 3s ;
+	animation-timing-function: cubic-bezier(1, 0, 0, 1);
+
+}
+.image-box:before{
+	content: '';
+	position: absolute;
+	top: 25%;
+	right: 40%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f1c40f;
+    z-index: 20;
+    box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation: img-1 2s;
+    animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+    animation-delay: 1s ;
+    animation-fill-mode: forwards;
+}
+@keyframes img{
+	from{
+		opacity: 0;
+		transform: scale(0);
+		margin-right: 30%;
+
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+		margin-right: 0;
+	}
+}
+
+@keyframes img-1{
+	from{
+		opacity: 0;
+		transform: scale(0);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+
+@keyframes doted{
+	from{
+		opacity: 0;
+
+	}
+	to{
+		opacity: 1;
+
+	}	
+}
+@keyframes up{
+	from{
+		opacity: 0;
+		transform: translateY(-300px);
+	}
+	to{
+		opacity: 0.6;
+		transform: translateY();
+	}
+}
+
+
+
+
+  @keyframes down{
+	from{
+		opacity: 0;
+		transform: translateY(-300px);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+		transform: translateY(0);
+	}
+}  
+
+  @keyframes button{
+	from{
+		opacity: 0;
+		transform: scale(2);
+	}
+	to{
+		opacity: 1;
+		transform: scale(2);
+	}
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+

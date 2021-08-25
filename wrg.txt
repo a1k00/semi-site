@@ -1,0 +1,42 @@
+<div class="noi">
+	<div class="all">
+		<h1 class="unu">01</h1>
+		<h3 class="trei">01  find your fashion</h3>
+		<p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore blanditiis iusto, pedit mollitia. Nulla magni qaerat laborum itaque, ratione pariatur.parimur siten hipe</p>
+		<a  class="hic" href="buy1.html">see the seacret product</a>
+	</div>
+		<div class="all">
+		<h1  class="unu">02</h1>
+		<h3 class="trei">02  find your fashion</h3>
+		<p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore blanditiis iusto, pedit mollitia. Nulla magni qaerat laborum itaque, ratione pariatur.parimur siten hipe</p>
+		<a  class="hic" href="buy2.html">see the seacret product</a>
+	</div>
+		<div class="all">
+		<h1 class="unu">03</h1>
+		<h3 class="trei">03  find your fashion</h3>
+		<p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore blanditiis iusto, pedit mollitia. Nulla magni qaerat laborum itaque, ratione pariatur.parimur siten hipe</p>
+		<a  class="hic" href="buy3.html">see the seacret product</a>
+	</div>
+	<div class="all">
+		<h1 class="unu">04</h1>
+		<h3 class="trei">04  find your fashion</h3>
+		<p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore blanditiis iusto, pedit mollitia. Nulla magni qaerat laborum itaque, ratione pariatur.parimur siten hipe</p>
+		<a  class="hic" href="#">see the seacret product</a>
+	</div>
+		<div class="all">
+		<h1  class="unu">05</h1>
+		<h3 class="trei">05  find your fashion</h3>
+		<p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore blanditiis iusto, pedit mollitia. Nulla magni qaerat laborum itaque, ratione pariatur.parimur siten hipe</p>
+		<a class="hic"  href="#">see the seacret product</a>
+	</div>
+		<div class="all">
+		<h1 class="unu">06</h1>
+		<h3 class="trei">06  find your fashion</h3>
+		<p class="parag">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore blanditiis iusto, pedit mollitia. Nulla magni qaerat laborum itaque, ratione pariatur.parimur siten hipe</p>
+		<a class="hic" href="#">see the seacret product</a>
+		
+	</div>
+	
+	
+
+	</div>

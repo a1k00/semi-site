@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.sala{
+	height: 100vh;
+	overflow: hidden;
+	background: #272831;
+	
+}
+.card{
+	margin-top: 50px;
+}
+.slick-slide img{
+	margin: 0 auto;
+	max-width: 200px;
+	border: 3px solid #fff;
+	border-radius:50% ;
+	margin-bottom: 25px;
+}
+.item{
+	padding: 15px;
+	outline: none;
+}
+
+.item-inner{
+	background: linear-gradient(45deg, #ff6600, #fff000);
+	border-radius: 18px;
+	text-align: center;
+	padding: 25px;
+
+}
+.item-inner h4{
+font-size: 30px;
+color: #fff;
+font-family: Nueva Std;
+text-transform: capitalize;
+}
+
+.item-inner p{
+	font-size: 16px;
+	color: #fff;
+	font-family: Open Sans;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.social{
+	margin-top: 50px;
+}
+.social a{
+	display: inline-block;
+
+	transition: all ease 0.5s;
+}
+.social a:hover{
+	transform: translateY(-10px);
+}
+
+
+
+
+
+.item-inner img{
+width: 200px;
+height: 200px 
+
+}
+.social a{
+	background: white;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 19px;
+	border-radius: 5px;
+	color: black;
+	font-weight: 600;
+}
+.social{
+	margin: 10px;
+}
+
+
+
+
+.item2 .item-inner{
+	background: linear-gradient(45deg, #0060ff, #fe0ff0);
+
+}
+.item3 .item-inner{
+	background: linear-gradient(45deg, #0060ff, #5ad607);
+
+}
+.item4 .item-inner{
+	background: linear-gradient(45deg, #ffd200, #07d676);
+
+}
+.item5 .item-inner{
+	background: linear-gradient(45deg, #0b618a, #07d6b9);
+
+}
+
+
+
+
+
+
+.item2 .social a{
+	color: #0f5cff;
+}
+
+.item3 .social a{
+	color: #06c1ed;
+}
+
+
+.item4 .social a{
+	color: #f0d207;
+}
+
+
+.item5 .social a{
+	color: #0a698d;
+}
+
+.slick-slide{
+	transform: scale(0.8);
+	opacity: 0.3;
+	transition: all ease 0.5s;
+}
+
+.slick-slide.slick-current{
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.slick-arrow{
+	position: absolute;
+bottom: 0;
+z-index: 99;
+background: #fff;
+border: none;
+padding: 8px 15px;
+borde-radius: 50px;
+width: 100px;
+outline: none;
+}
+
+
+.slick-next{
+	left: 52%;
+
+}
+.slick-prev{
+	left: 43%;
+}
+.slick-list{
+	padding-top:55px !important;
+	padding-bottom: 55px !important;
+}
+
+
+
+.meniu{
+	display: flex;
+	background: #EDBFBF;
+	width: 100%;
+margin: 0 auto;
+}
+.meniu li{
+	list-style: none;
+	position: relative;
+	width: 250px;
+}
+.meniu a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all .20s;
+}
+.meniu a:hover{
+	background: #C7C7C7;
+
+}
+.meniu ul{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: none;
+	padding: 0px;
+	background: black;
+}
+.meniu li:hover > ul{
+	display: block;
+
+}
+.meniu ul ul{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 100%;
+background: black;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+form{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr) ;
+	width: 600px ;
+	grid-gap: 10px;
+}
+input{
+	height: 40px;
+	font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 50px silver;
+}
+label{
+	font-size: 20px;
+	font-weight: 500;
+
+}
+/*.envelop{
+	border: 1px solid white;*/
+
+}
+.envelop input{
+	border: none;
+}
+
+.fa-user,
+.fa-envelope,
+.fa-lock{
+	color: #CD5EED;
+	font-size: 20px;
+}
+
+
+.accept{
+	display: flex;
+	flex-direction: row;
+}
+.tex h3{
+	color: #AD57CD;
+	margin-left: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.in input{
+width: 275px;
+border: none;
+box-shadow: 3px 3px 50px silver;
+color: white;
+background: #AD57CD;
+}
+.principal{
+	margin: 0 auto;
+	top: 50%;
+	margin-left: 25% ;
+	top: 100px;
+}
+.big{
+	width: 700px;
+	height: 600px;
+	background: #CDC0C0;
+	border-radius: 50px;
+	font-size: 20px;
+	box-shadow: 10px 10px 5px silver;
+}
+.two{
+	width: 700px;
+	height: 600px;
+	background: #D4B1FF;
+	border-radius: 50px;
+	box-shadow: 10px 10px 5px silver;
+	margin-top: -54%;
+	margin-left: 100% ;
+	top: px;
+}
+
+.miss{
+		color: #AD57CD;
+	margin-left: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.principal1{
+	margin: 0 auto;
+	top: 50%;
+	margin-left: 25% ;
+	top: 100px;
+
+}
+.text{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-right: 180px;
+}
+.s {
+	background: #E1E8DB;
+}
+.meniu{
+	display: flex;
+	background: #EDBFBF;
+	width: 100%;
+margin: 0 auto;
+}
+.meniu li{
+	list-style: none;
+	position: relative;
+	width: 250px;
+}
+.meniu a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all .20s;
+}
+.meniu a:hover{
+	background: white;
+
+}
+.meniu ul{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: none;
+	padding: 0px;
+}
+.meniu li:hover > ul{
+	display: block;
+
+}
+.meniu ul ul{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 100%;
+
+}
